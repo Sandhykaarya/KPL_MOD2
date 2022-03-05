@@ -16,5 +16,16 @@ namespace modul2_1302204002
         {
             InitializeComponent();
         }
+
+        private void btn_1_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "0")
+            {
+                textBox1.Clear();
+            }
+
+            Button b = (Button)sender;
+            textBox1.Text += b.Text;
+        }
     }
 }
