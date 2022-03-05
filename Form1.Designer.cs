@@ -45,7 +45,7 @@
             // 
             // btn_7
             // 
-            this.btn_7.Location = new System.Drawing.Point(65, 119);
+            this.btn_7.Location = new System.Drawing.Point(66, 350);
             this.btn_7.Name = "btn_7";
             this.btn_7.Size = new System.Drawing.Size(120, 56);
             this.btn_7.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             // btn_8
             // 
-            this.btn_8.Location = new System.Drawing.Point(206, 119);
+            this.btn_8.Location = new System.Drawing.Point(206, 350);
             this.btn_8.Name = "btn_8";
             this.btn_8.Size = new System.Drawing.Size(120, 56);
             this.btn_8.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             // btn_9
             // 
-            this.btn_9.Location = new System.Drawing.Point(342, 119);
+            this.btn_9.Location = new System.Drawing.Point(343, 350);
             this.btn_9.Name = "btn_9";
             this.btn_9.Size = new System.Drawing.Size(120, 56);
             this.btn_9.TabIndex = 2;
@@ -75,7 +75,7 @@
             // 
             // btn_4
             // 
-            this.btn_4.Location = new System.Drawing.Point(65, 198);
+            this.btn_4.Location = new System.Drawing.Point(66, 277);
             this.btn_4.Name = "btn_4";
             this.btn_4.Size = new System.Drawing.Size(120, 56);
             this.btn_4.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             // btn_5
             // 
-            this.btn_5.Location = new System.Drawing.Point(206, 198);
+            this.btn_5.Location = new System.Drawing.Point(206, 277);
             this.btn_5.Name = "btn_5";
             this.btn_5.Size = new System.Drawing.Size(120, 56);
             this.btn_5.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             // btn_6
             // 
-            this.btn_6.Location = new System.Drawing.Point(342, 198);
+            this.btn_6.Location = new System.Drawing.Point(342, 277);
             this.btn_6.Name = "btn_6";
             this.btn_6.Size = new System.Drawing.Size(120, 56);
             this.btn_6.TabIndex = 5;
@@ -105,7 +105,7 @@
             // 
             // btn_1
             // 
-            this.btn_1.Location = new System.Drawing.Point(65, 277);
+            this.btn_1.Location = new System.Drawing.Point(66, 198);
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(120, 56);
             this.btn_1.TabIndex = 6;
@@ -115,7 +115,7 @@
             // 
             // btn_2
             // 
-            this.btn_2.Location = new System.Drawing.Point(206, 277);
+            this.btn_2.Location = new System.Drawing.Point(206, 198);
             this.btn_2.Name = "btn_2";
             this.btn_2.Size = new System.Drawing.Size(120, 56);
             this.btn_2.TabIndex = 7;
@@ -125,7 +125,7 @@
             // 
             // btn_3
             // 
-            this.btn_3.Location = new System.Drawing.Point(342, 277);
+            this.btn_3.Location = new System.Drawing.Point(342, 198);
             this.btn_3.Name = "btn_3";
             this.btn_3.Size = new System.Drawing.Size(120, 56);
             this.btn_3.TabIndex = 8;
@@ -135,7 +135,7 @@
             // 
             // btn_0
             // 
-            this.btn_0.Location = new System.Drawing.Point(206, 350);
+            this.btn_0.Location = new System.Drawing.Point(342, 119);
             this.btn_0.Name = "btn_0";
             this.btn_0.Size = new System.Drawing.Size(120, 56);
             this.btn_0.TabIndex = 9;
@@ -145,21 +145,23 @@
             // 
             // btn_11
             // 
-            this.btn_11.Location = new System.Drawing.Point(342, 350);
+            this.btn_11.Location = new System.Drawing.Point(206, 119);
             this.btn_11.Name = "btn_11";
             this.btn_11.Size = new System.Drawing.Size(120, 56);
             this.btn_11.TabIndex = 10;
             this.btn_11.Text = "=";
             this.btn_11.UseVisualStyleBackColor = true;
+            this.btn_11.Click += new System.EventHandler(this.hitung);
             // 
             // btn_10
             // 
-            this.btn_10.Location = new System.Drawing.Point(65, 350);
+            this.btn_10.Location = new System.Drawing.Point(66, 119);
             this.btn_10.Name = "btn_10";
             this.btn_10.Size = new System.Drawing.Size(120, 56);
             this.btn_10.TabIndex = 11;
             this.btn_10.Text = "+";
             this.btn_10.UseVisualStyleBackColor = true;
+            this.btn_10.Click += new System.EventHandler(this.operator_click);
             // 
             // textBox1
             // 
